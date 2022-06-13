@@ -6,7 +6,7 @@
 
 .imageContainer {
   height: 12rem;
-  width: 25rem;
+  width: 26.2rem;
   background-color: var(--secondaryColor);
   position: absolute;
   top: 0;
@@ -59,6 +59,8 @@
   transform: translateY(2rem);
   z-index: 10;
   opacity: 1;
+  height: 20rem;
+  width: 43.8rem;
 }
 
 .imageContainer:hover + .detailsContainer {

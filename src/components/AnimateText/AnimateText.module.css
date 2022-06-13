@@ -13,3 +13,21 @@
 .spanAnimatedText {
   color: var(--secondaryColor);
 }
+
+.cursor {
+  font-weight: 300;
+  animation: toggle 1s infinite;
+  font-style: normal;
+}
+
+@keyframes toggle {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}

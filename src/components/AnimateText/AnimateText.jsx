@@ -71,7 +71,8 @@ export default function AnimateText({ staticText, preAnimatedText, textToAnimate
   return (
     <>
       <span className = {s.spanStaticText}>{staticText}</span>
-      <span className = {s.spanStaticText}>{preAnimatedText}<i className = {s.spanAnimatedText}>{text}</i></span>
+      <span className = {s.spanStaticText}>{preAnimatedText}
+      <i className = {s.spanAnimatedText}>{text}</i><i className = {s.cursor}>|</i></span>
     </>
   );
 }

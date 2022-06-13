@@ -45,7 +45,7 @@
 .tab:after {
   display: block;
   content: '';
-  border-bottom: solid 3px #fff;
+  border-bottom: solid 3px var(--fontColor);
   transform: scaleX(0);
   transition: 300ms ease-in-out;
 }
