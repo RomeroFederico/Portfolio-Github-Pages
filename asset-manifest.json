@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Github-Pages/static/css/main.b5c39a35.css",
+    "main.js": "/Portfolio-Github-Pages/static/js/main.0faeccf3.js",
+    "static/js/787.9b443e25.chunk.js": "/Portfolio-Github-Pages/static/js/787.9b443e25.chunk.js",
+    "static/media/dogs1.png": "/Portfolio-Github-Pages/static/media/dogs1.dadd1c6eec6e2774bd99.png",
+    "static/media/dogs2.png": "/Portfolio-Github-Pages/static/media/dogs2.aa6b3fca3429b1798aed.png",
+    "static/media/dogs3.png": "/Portfolio-Github-Pages/static/media/dogs3.efd1d923b266a203cacc.png",
+    "static/media/dogs4.png": "/Portfolio-Github-Pages/static/media/dogs4.031ac0c16e2368ac72bb.png",
+    "static/media/react.svg": "/Portfolio-Github-Pages/static/media/react.fdd3331d261ad6d5e1c92448737aa2aa.svg",
+    "static/media/sequelize.svg": "/Portfolio-Github-Pages/static/media/sequelize.c8e2a3a18d206fb0b50aa0dbb9c143ea.svg",
+    "static/media/nodejs.svg": "/Portfolio-Github-Pages/static/media/nodejs.20b6ca74617c9b4d2d5552f50a096520.svg",
+    "static/media/redux.svg": "/Portfolio-Github-Pages/static/media/redux.609190d142776d97540d56376fce6a2c.svg",
+    "static/media/svg.svg": "/Portfolio-Github-Pages/static/media/svg.2c7929cfec117e9c4f44a7dcdc9a161b.svg",
+    "static/media/css.svg": "/Portfolio-Github-Pages/static/media/css.aec31ad6887c3a820a1b3b8e2b9d9937.svg",
+    "index.html": "/Portfolio-Github-Pages/index.html",
+    "main.b5c39a35.css.map": "/Portfolio-Github-Pages/static/css/main.b5c39a35.css.map",
+    "main.0faeccf3.js.map": "/Portfolio-Github-Pages/static/js/main.0faeccf3.js.map",
+    "787.9b443e25.chunk.js.map": "/Portfolio-Github-Pages/static/js/787.9b443e25.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5c39a35.css",
+    "static/js/main.0faeccf3.js"
+  ]
+}
