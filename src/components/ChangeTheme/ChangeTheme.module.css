@@ -1,0 +1,32 @@
+.menuContainer {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+
+  z-index: 20;
+}
+
+.btn {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid var(--secondaryColor);
+  background-color: var(--secondaryColor);
+  padding: 0.5rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.showIcon {
+  animation: showWhenClicked 0.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes showWhenClicked {
+  from {
+    transform: translateY(3rem);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

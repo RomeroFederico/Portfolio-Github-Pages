@@ -1,0 +1,15 @@
+.sun {
+  transform-origin: center;
+  animation: rotateSun 10s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotateSun {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,18 @@
+.moon {
+  transform-origin: center;
+  animation: rotateMoon 4s infinite;
+}
+
+@keyframes rotateMoon {
+  0% {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}

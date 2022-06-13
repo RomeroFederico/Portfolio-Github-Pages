@@ -1,0 +1,60 @@
+.globalContainer {
+  width: 100%;
+
+
+  position: fixed;
+  top: 0;
+
+  padding-top: 1rem;
+
+  background-color: var(--primaryColor);
+
+  transition: background-color 0.5s;
+
+  z-index: 15;
+}
+
+.tabsContainer {
+  width: 30%;
+  justify-content: space-between !important;
+}
+
+.tabContainer {
+  display: grid;
+  width: 40%;
+}
+
+.tab {
+  font-size: var(--fontSubTitle);
+  color: var(--secondaryColor);
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 2rem;
+  transition: color 300ms ease-in-out;
+}
+
+.enabled {
+  color: var(--fontColor);
+  cursor: pointer;
+}
+
+.enabled > .tab {
+  color: var(--fontColor);
+}
+
+.tab:after {
+  display: block;
+  content: '';
+  border-bottom: solid 3px #fff;
+  transform: scaleX(0);
+  transition: 300ms ease-in-out;
+}
+
+.enabled:hover > .tab:after {
+  transform: scaleX(1);
+  border-bottom-color: var(--secondaryColor);
+}
+
+.enabled:hover > .tab {
+  color: var(--secondaryColor);
+}

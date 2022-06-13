@@ -1,0 +1,59 @@
+.logosContainer {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+
+  position: fixed;
+  left: 1rem;
+  bottom: calc(var(--setHeight) / 2 - 3rem);
+
+  z-index: 15;
+}
+
+.logoContainer {
+  width: 2rem;
+  height: 2rem;
+
+  cursor: pointer;
+
+  position: relative;
+}
+
+.logoContainer:hover > svg > path {
+  fill: var(--secondaryColor);
+}
+
+.logoContainer > svg > path {
+  transition: fill 0.5s;
+}
+
+.tag {
+  position: absolute;
+  font-size: var(--fontSmall);
+  color: white;
+  padding: 0.6rem;
+  border-radius: 5px;
+  background-color: var(--secondaryColor);
+  transform: translateX(3rem);
+  width: 7rem;
+  display: none;
+  text-align: center;
+}
+
+.tag:after {
+  position: absolute;
+  width: 0.7rem;
+  height: 0.7rem;
+  top: 35%;
+  left: -3%;
+  content: '';
+  transform: rotate(45deg);
+  margin-top: 0;
+  margin-left: 0;
+  background-color: var(--secondaryColor);
+}
+
+.logoContainer:hover > .tag {
+  display: block;
+}

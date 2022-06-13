@@ -1,0 +1,15 @@
+.spanStaticText,
+.spanAnimatedText {
+  font-size: 2rem;
+  font-weight: 700;
+
+  margin: 0.5rem;
+}
+
+.spanStaticText {
+  color: var(--fontColor);
+}
+
+.spanAnimatedText {
+  color: var(--secondaryColor);
+}

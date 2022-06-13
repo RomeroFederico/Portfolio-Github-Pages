@@ -1,0 +1,21 @@
+.globalContainer {
+  width: 100%;
+  min-height: var(--setHeight);
+
+  flex-direction: column;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5rem;
+
+  justify-content: center;
+  align-content: center;
+
+  justify-items: center;
+  align-items: center;
+}
+
+.addPading {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}

@@ -1,0 +1,6 @@
+.globalContainer {
+  width: 100%;
+  min-height: var(--setHeight);
+
+  flex-direction: column;
+}
