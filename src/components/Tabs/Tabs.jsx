@@ -6,11 +6,9 @@ import s from './Tabs.module.css';
 
 export default function Tabs() {
 
-  const [ section, setSection ] = React.useState('');
   const dispatch = useDispatch();
 
   let handleClick = function(sectionTab) {
-    setSection(sectionTab);
     dispatch(changeSection(sectionTab))
   }
 

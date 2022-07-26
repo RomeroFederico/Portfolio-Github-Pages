@@ -11,10 +11,7 @@ export default function Home({ staticText, preAnimatedText, textToAnimate }) {
   const executeScroll = () => myRef.current.scrollIntoView();
 
   React.useEffect(() => {
-    if (section === 'Inicio') {
-      executeScroll();
-      console.log(myRef);
-    }
+    if (section === 'Inicio') executeScroll();
   }, [section]);
 
   return (

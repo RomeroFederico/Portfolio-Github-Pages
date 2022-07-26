@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
 import { cv } from '../../configuration/links';
@@ -29,9 +28,9 @@ export default function AboutMe({ title, subTitle, description }) {
             <div className = {`${s.text} ${s.description}`} key = {`description-${index}`}>{desc}</div>
           )
         }
-        <Link to = {`/files/${cv}`} target = "_blank" download>
+        <a href = {cv} download>
           <button className = {s.btn}>Descargar CV</button>
-        </Link>
+        </a>
       </div>
     </div>
   );
