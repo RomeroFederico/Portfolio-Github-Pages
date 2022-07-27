@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-Github-Pages/static/css/main.b5c39a35.css",
-    "main.js": "/Portfolio-Github-Pages/static/js/main.18d105d8.js",
+    "main.css": "/Portfolio-Github-Pages/static/css/main.31d6f6e0.css",
+    "main.js": "/Portfolio-Github-Pages/static/js/main.fc958db8.js",
     "static/js/787.9b443e25.chunk.js": "/Portfolio-Github-Pages/static/js/787.9b443e25.chunk.js",
     "static/media/dogs1.png": "/Portfolio-Github-Pages/static/media/dogs1.dadd1c6eec6e2774bd99.png",
     "static/media/dogs2.png": "/Portfolio-Github-Pages/static/media/dogs2.aa6b3fca3429b1798aed.png",
@@ -17,21 +17,33 @@
     "static/media/tech8.png": "/Portfolio-Github-Pages/static/media/tech8.e945ff501b3eb819e764.png",
     "static/media/react.svg": "/Portfolio-Github-Pages/static/media/react.fdd3331d261ad6d5e1c92448737aa2aa.svg",
     "static/media/cloudinary.svg": "/Portfolio-Github-Pages/static/media/cloudinary.12d41d70220330c53b9c0bf2025b8657.svg",
+    "static/media/psql.svg": "/Portfolio-Github-Pages/static/media/psql.725e7ec2fa72633083d4e85c36d0c9d7.svg",
+    "static/media/mysql.svg": "/Portfolio-Github-Pages/static/media/mysql.43de11b606ebbf08dc0ff0a2c482c686.svg",
     "static/media/sequelize.svg": "/Portfolio-Github-Pages/static/media/sequelize.c8e2a3a18d206fb0b50aa0dbb9c143ea.svg",
     "static/media/nodejs.svg": "/Portfolio-Github-Pages/static/media/nodejs.20b6ca74617c9b4d2d5552f50a096520.svg",
     "static/media/redux.svg": "/Portfolio-Github-Pages/static/media/redux.609190d142776d97540d56376fce6a2c.svg",
+    "static/media/php.svg": "/Portfolio-Github-Pages/static/media/php.42a114d4cc1b5887193fcfdf627b53f7.svg",
+    "static/media/csharp.svg": "/Portfolio-Github-Pages/static/media/csharp.cc0f13a1d2f8d3a0507b33ae708eef7e.svg",
     "static/media/svg.svg": "/Portfolio-Github-Pages/static/media/svg.2c7929cfec117e9c4f44a7dcdc9a161b.svg",
+    "static/media/c.svg": "/Portfolio-Github-Pages/static/media/c.3056e750e87ae0678cc7a6d04240608f.svg",
     "static/media/css.svg": "/Portfolio-Github-Pages/static/media/css.aec31ad6887c3a820a1b3b8e2b9d9937.svg",
+    "static/media/github.svg": "/Portfolio-Github-Pages/static/media/github.a09085e1825c502e994cf470140bd0c9.svg",
+    "static/media/expressjs.svg": "/Portfolio-Github-Pages/static/media/expressjs.513aab8e41f91efae87068e910f4e0de.svg",
     "index.html": "/Portfolio-Github-Pages/index.html",
+    "static/media/git.svg": "/Portfolio-Github-Pages/static/media/git.32a37bc4e8f52efa443eda45bb62700a.svg",
+    "static/media/html5.svg": "/Portfolio-Github-Pages/static/media/html5.88ce49080fb60d3d2cbe8bf24daa29ac.svg",
     "static/media/material-ui.svg": "/Portfolio-Github-Pages/static/media/material-ui.be2f400992ad1a10058b09144d3b851f.svg",
+    "static/media/figma.svg": "/Portfolio-Github-Pages/static/media/figma.3e3af3f13eed4c7954e4809f552590bd.svg",
+    "static/media/javascript.svg": "/Portfolio-Github-Pages/static/media/javascript.59aeff9be287d8f8b968e44fead2de68.svg",
     "static/media/sendgrid.svg": "/Portfolio-Github-Pages/static/media/sendgrid.ae07a1b3bea21c184028a38911e1f699.svg",
     "static/media/mapbox.svg": "/Portfolio-Github-Pages/static/media/mapbox.cae5f33410cb2b05aae6624795a7f3b2.svg",
-    "main.b5c39a35.css.map": "/Portfolio-Github-Pages/static/css/main.b5c39a35.css.map",
-    "main.18d105d8.js.map": "/Portfolio-Github-Pages/static/js/main.18d105d8.js.map",
+    "static/media/angular.svg": "/Portfolio-Github-Pages/static/media/angular.3ae00e108e41521e1f5c8d3c28bf6618.svg",
+    "main.31d6f6e0.css.map": "/Portfolio-Github-Pages/static/css/main.31d6f6e0.css.map",
+    "main.fc958db8.js.map": "/Portfolio-Github-Pages/static/js/main.fc958db8.js.map",
     "787.9b443e25.chunk.js.map": "/Portfolio-Github-Pages/static/js/787.9b443e25.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5c39a35.css",
-    "static/js/main.18d105d8.js"
+    "static/css/main.31d6f6e0.css",
+    "static/js/main.fc958db8.js"
   ]
 }
