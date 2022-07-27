@@ -25,7 +25,7 @@ export const stack = [
       {
         name: 'React',
         icon: reactIco,
-        description: 'React (también llamada React.js o ReactJS) es una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página. Es mantenido por Facebook y la comunidad de software libre. En el proyecto hay más de mil desarrolladores libres.',
+        description: 'React (también llamada React.js o ReactJS) es una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página.',
         source: 'Wikipedia',
         viewMore: 'https://es.wikipedia.org/wiki/React',
         link: 'https://reactjs.org/'
@@ -33,7 +33,7 @@ export const stack = [
       {
         name: 'Redux',
         icon: reduxIco,
-        description: 'Redux es una librería JavaScript de código abierto para el manejo del estado de las aplicaciones. Es comúnmente usada con otras librerías como React o Angular para la construcción de Interfaces de Usuario. Dan Abramov y Andrew Clark se inspiraron en otra librería de Facebook, Flux para crear Redux.',
+        description: 'Redux es una librería JavaScript de código abierto para el manejo del estado de las aplicaciones. Es comúnmente usada con otras librerías como React o Angular para la construcción de Interfaces de Usuario.',
         source: 'Wikipedia',
         viewMore: 'https://es.wikipedia.org/wiki/Redux_(JavaScript)',
         link: 'https://redux.js.org/'
@@ -41,7 +41,7 @@ export const stack = [
       {
         name: 'Angular',
         icon: angularIco,
-        description: 'Angular (comúnmente llamado Angular 2+ o Angular 2) es un framework para aplicaciones web desarrollado en TypeScript, de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página. Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC), en un esfuerzo para hacer que el desarrollo y las pruebas sean más fáciles.',
+        description: 'Angular (comúnmente llamado Angular 2+ o Angular 2) es un framework para aplicaciones web desarrollado en TypeScript, de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página.',
         source: 'Wikipedia',
         viewMore: 'https://es.wikipedia.org/wiki/Angular_(framework)',
         link: 'https://angular.io/'
@@ -57,7 +57,7 @@ export const stack = [
       {
         name: 'CSS3',
         icon: cssIco,
-        description: 'CSS (siglas en inglés de Cascading Style Sheets), en español «Hojas de estilo en cascada», es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado. Es muy usado para establecer el diseño visual de los documentos web, e interfaces de usuario escritas en HTML o XHTML.',
+        description: 'CSS (siglas en inglés de Cascading Style Sheets), en español «Hojas de estilo en cascada», es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.',
         source: 'Wikipedia',
         viewMore: 'https://es.wikipedia.org/wiki/CSS',
         link: 'https://www.w3.org/Style/CSS/'
@@ -125,7 +125,7 @@ export const stack = [
       {
         name: 'MySQL',
         icon: mysqlIco,
-        description: 'MySQL es un sistema de gestión de bases de datos relacional desarrollado bajo licencia dual: Licencia pública general/Licencia comercial por Oracle Corporation y está considerada como la base de datos de código abierto más popular del mundo, y una de las más populares en general junto a Oracle y Microsoft SQL Server, todo para entornos de desarrollo web.',
+        description: 'MySQL es un sistema de gestión de bases de datos relacional desarrollado bajo licencia dual: Licencia pública general/Licencia comercial por Oracle Corporation y está considerada como la base de datos de código abierto más popular del mundo.',
         source: 'Wikipedia',
         viewMore: 'https://es.wikipedia.org/wiki/MySQL',
         link: 'https://www.mysql.com/'
@@ -139,7 +139,7 @@ export const stack = [
       {
         name: 'C',
         icon: cIco,
-        description: 'C es un lenguaje de programación de propósito general originalmente desarrollado por Dennis Ritchie entre 1969 y 1972 en los Laboratorios Bell, como evolución del anterior lenguaje B, a su vez basado en BCPL. Al igual que B, es un lenguaje orientado a la implementación de sistemas operativos, concretamente Unix. C es apreciado por la eficiencia del código que produce y es el lenguaje de programación más popular para crear softwares de sistemas y aplicaciones.',
+        description: 'C es un lenguaje de programación de propósito general orientado a la implementación de sistemas operativos, concretamente Unix. C es apreciado por la eficiencia del código que produce y es el lenguaje de programación más popular para crear softwares de sistemas y aplicaciones.',
         source: 'Wikipedia',
         viewMore: 'https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)',
         link: 'https://www.open-std.org/jtc1/sc22/wg14/'
@@ -147,7 +147,7 @@ export const stack = [
       {
         name: 'C Sharp',
         icon: csharpIco,
-        description: '"C#" (pronunciado ci sharp en inglés) es un lenguaje de programación multiparadigma desarrollado y estandarizado por la empresa Microsoft como parte de su plataforma .NET. C# es uno de los lenguajes de programación diseñados para la infraestructura de lenguaje común. Su sintaxis básica deriva de C/C++ y utiliza el modelo de objetos de la plataforma .NET, similar al de Java, aunque incluye mejoras derivadas de otros lenguajes.',
+        description: '"C#" (pronunciado ci sharp en inglés) es un lenguaje de programación multiparadigma desarrollado y estandarizado por la empresa Microsoft como parte de su plataforma .NET.',
         source: 'Wikipedia',
         viewMore: 'https://es.wikipedia.org/wiki/C_Sharp',
         link: 'https://docs.microsoft.com/en-us/dotnet/csharp/'
@@ -161,7 +161,7 @@ export const stack = [
       {
         name: 'Git',
         icon: gitIco,
-        description: 'Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de computadora incluyendo coordinar el trabajo que varias personas realizan sobre archivos compartidos en un repositorio de código.',
+        description: 'Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.',
         source: 'Wikipedia',
         viewMore: 'https://es.wikipedia.org/wiki/Git',
         link: 'https://git-scm.com/'

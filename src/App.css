@@ -20,8 +20,8 @@
 }
 
 .LIGHT {
-  --primaryColor: #e1e5f2;
-  --primaryColorSub: #e1e5f2;
+  --primaryColor: white;
+  --primaryColorSub: white;
   --secondaryColor: #1f7a8c;
   --secondaryColorSub: #022b3a;
 

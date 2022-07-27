@@ -28,7 +28,7 @@
 }
 
 .title {
-  color: var(--secondaryColor);
+  color: var(--fontColor);
   grid-row: 1 / 2;
   grid-column: 1 / 2;
 
