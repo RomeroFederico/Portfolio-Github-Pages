@@ -83,9 +83,9 @@ export const projectList = [
     title: 'TechMarket',
     details: 'Proyecto Final hecho para el Bootcamp de Henry (Full Stack Web Developer)',
     features: [
-      'E-Commerce con orientación a la venta de productos de computación',
-      'Carrito de compras, favoritos, pasarela de pagos con mercado pago, jerarquia de usuarios, etc',
-      'Encargado de: diseñar el prototipo, implementación de la tienda, visualización y administracion de los productos y de las ordenes de compras',
+      'E-Commerce con orientación a la venta de productos de computación.',
+      'Carrito de compras, favoritos, pasarela de pagos con mercado pago, jerarquia de usuarios, etc.',
+      'Encargado de: diseñar el prototipo, implementación de la tienda, y la visualización y administracion de los productos y de las ordenes de compras.',
     ],
     icons: [
       {

@@ -1,6 +1,7 @@
 import {
   CHANGE_SECTION,
-  CHANGE_THEME
+  CHANGE_THEME,
+  STACK_CHANGED
 } from '../actions/actions';
 
 const THEME = {
@@ -10,7 +11,9 @@ const THEME = {
 
 const initialState = {
   theme: 'DARK',
-  section: 'Home'
+  section: 'Home',
+  color: '',
+  stack: null
 }
 
 const rootReducer = function(state = initialState, { type, payload }) {
@@ -24,6 +27,12 @@ const rootReducer = function(state = initialState, { type, payload }) {
       return {
         ...state,
         theme: state.theme === THEME.LIGHT ? THEME.DARK : THEME.LIGHT
+      }
+    case STACK_CHANGED:
+      return {
+        ...state,
+        stack: payload.stack,
+        color: payload.color
       }
     default:
       return state;

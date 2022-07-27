@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux';
 import Home from './components/Home/Home';
 import AboutMe from './components/AboutMe/AboutMe';
 import Projects from './components/Projects/Projects';
+import Stacks from './components/Stacks/Stacks';
 import Links from './components/Links/Links';
 import Tabs from './components/Tabs/Tabs';
 import ChangeTheme from './components/ChangeTheme/ChangeTheme';
@@ -10,6 +11,7 @@ import ChangeTheme from './components/ChangeTheme/ChangeTheme';
 import { myInfo } from './configuration/aboutMe.js';
 import { projectList } from './configuration/projects.js';
 import { presentation } from './configuration/home.js';
+import { stack } from './configuration/stack.js';
 
 import './App.css';
 
@@ -34,6 +36,10 @@ function App() {
       
       <Projects 
         projects = {projectList}
+      />
+
+      <Stacks 
+        stacks = {stack}
       />
       
       <Links />

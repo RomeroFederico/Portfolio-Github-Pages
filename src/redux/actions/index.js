@@ -1,4 +1,4 @@
-import { CHANGE_SECTION, CHANGE_THEME } from './actions';
+import { CHANGE_SECTION, CHANGE_THEME, STACK_CHANGED } from './actions';
 
 export const changeSection = function(section) {
   return {
@@ -10,5 +10,15 @@ export const changeSection = function(section) {
 export const changeTheme = function() {
   return {
     type: CHANGE_THEME
+  }
+}
+
+export const changeStack = function(stack, color) {
+  return {
+    type: STACK_CHANGED,
+    payload: {
+      stack,
+      color
+    }
   }
 }

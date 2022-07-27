@@ -43,6 +43,15 @@ export default function Tabs() {
           </div>
         </div>
 
+        <div 
+          className = {`${s.tabContainer} center ${s.enabled}`}
+          onClick = {() => handleClick('Skills')}
+        >
+          <div className = {s.tab}>
+            Skills
+          </div>
+        </div>
+
       </div>
     </div>
   );
