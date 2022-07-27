@@ -57,9 +57,9 @@ git push -u origin main
 
 
 ### Personalizar:
-Para poder personalizar a gusto el portfolio, va a ser necesario editar los siguientes archivos ubicados en la carpeta `src/configuration`.
+Para poder personalizar a gusto el portfolio, va a ser necesario editar los siguientes archivos ubicados en la carpeta `./src/configuration`.
 
-a) home.js
+#### a) `home.js`
 ```javascript
 // Para editar la presentacion en la seccion Inicio.
 export const presentation = {
@@ -73,7 +73,7 @@ export const presentation = {
 };
 ```
 
-b) aboutMe.js
+#### b) `aboutMe.js`
 ```javascript
 // Para editar la descripcion en la seccion About Me.
 export const myInfo = {
@@ -84,7 +84,84 @@ export const myInfo = {
       'SECOND LINE',
       'THIRD LINE'
     ]
-}
+};
+```
+
+#### c) `projects.js`
+
+Para indicar los iconos de las herramientos utilizadas es necesario primero agregarlas al repositorio. Para eso guardar los iconos necesarios en la carpeta `./src/configuration/images/icons`, preferentemente en formato SVG o PNG con transparencia. Luego importamos cada icono.
+```javascript
+import nombreAUtilizar from './images/icons/NOMBRE-DEL-ICONO.EXTENSION';
+import reduxIco from './images/icons/redux.svg';                            // Ejemplo.
+```
+De igual manera, para las imagenes del proyecto se debe hacer lo mismo, guardando los archivos necesarios en la carpeta `./src/configuration/images/screenshots`, preferentemente con la misma resolucion entre imagenes.
+```javascript
+import image from './images/screenshots/NOMBRE-DE-LA-IMAGEN.EXTENSION';
+import dogs1 from './images/screenshots/dogs1.png';                         // Ejemplo.
+```
+Una vez teniendo ya todos los archivos cargados e importados de manera correcta, proceder a editar la lista de proyectos.
+```javascript
+export const projectList = [
+  {
+    images: [
+      image1,                 // Agregar la o las variables con la que se asocio a cada una de las imagenes importadas.
+      image2
+    ],
+    title: 'TITULO',          // Titulo del proyecto.
+    details: 'DETALLES...',   // Detalles del proyecto.
+    features: [               // Caracteristicas del proyecto. Cada cadena representa una nueva linea.
+      'FIRST FEATURE',        // Se recomienda como maximo incluir cuatro lineas.
+      'SECOND FEATURE',
+      'THIRD FEATURE',
+      'FOURTH FEATURE'
+    ],
+    icons: [                  // Agregar cada icono importado.
+      {
+        ico: firstIco,        // Variable asociada al icono importado.
+        name: 'FIRST'         // Nombre que mostrara el tag al mover el cursor sobre el icono.
+      },
+      {                       // Repetir esta estructura por cada icono a agregar.
+        ico: secondIco,
+        name: 'Second'
+      }
+    ],
+    linkToSite: 'LINK AL SITIO',            // Link al proyecto ya subido en internet.
+    linkToRepository: 'LINK AL REPOSITORIO' // Link al repositorio.
+  },                                        // En caso de no estar disponible alguno de estos, dejar como una cadena vacia ''.
+  {
+                              // Repetir esta estructura por cada proyecto a agregar.
+  }
+];
+```
+
+#### d) `stack.js`
+Al igual que con los iconos de los proyectos, es necesario seguir los mismos pasos, importando los iconos a la carpeta `./src/configuration/images/icons`. Se pueden re-utilizar aquellos que ya se cargaron previamente.
+
+Una vez hecho esto, preceder a editar la lista de skills.
+
+```javascript
+export const stack = [
+  {
+    category: 'CATEGORIA',    // Nombre de la categoria de la o las skills a agregar.
+    color: 'GREEN',           // Color asociada a la categoria. Puede ser el nombre del color CSS o en HEX.
+    items: [                  // Cada una de las skills ira aqui.
+      {
+        name: 'SKILL',        // Nombre de la skill
+        icon: skillIco,       // Variable asociada al icono importado.
+        description: '...',   // Descripcion de la skill.
+        source: 'SOURCE',     // Fuente de la descripcion.
+        viewMore: 'link',     // Link de la fuente.
+        link: 'link'          // Link oficial de la skill.
+      },
+      {
+                              // Repetir por cada skill de la categoria.
+      }
+    ],
+  },
+  {
+                              // Repetir por cada categoria.
+  }
+];
 ```
 
 ### `npm test`
