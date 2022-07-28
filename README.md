@@ -8,6 +8,10 @@
 Sencillo portfolio, facil de configurar, orientado a personas que trabajan en sistemas. 
 Este proyecto fue realizado por [Romero Federico](https://github.com/RomeroFederico).
 
+## Ver Demo
+
+[Mi Porfolio](https://romerofederico.github.io/Portfolio-Github-Pages/)
+
 ## Indice
 
 - Caracteristicas
@@ -24,6 +28,8 @@ El portfolio cuenta con 4 (cuatro) secciones principales:
 2. **About Me:** Descripcion mas detallada, la cual incluye la opcion para poder descargar el CV cargado.
 3. **Projects:** Presentacion de los proyectos realizados, con informacion de las tecnologias implementados e imagenes del mismo.
 4. **Skills:** Lenguajes, tecnoligias y herramientos que maneja el usuario, incluyendo una descripcion de cada una.
+
+Ademas, se puede cambiar entre dos temas: Claro y Oscuro. Por ultimo, tiene acceso a los links de Linkedin y Github del usuario.
 
 ## Configuracion
 > **Importante:** Para poder continuar, va a ser necesario contar con:
@@ -48,7 +54,8 @@ c) Ejecutar el proyecto para comenzar a editar y ver los resultados de manera lo
 ```bash
 npm start
 ```
-d) Para que luego puedas subirlo a internet, primero es necesario crear un repositorio en Github. Luego de crearlo, es momento de asociarlo a este proyecto. Para esto puedes seguir las instruccion que proporciona Github en el reposotiorio vacio, o puedes copiar el siguiente codigo:
+d) Para que luego puedas subirlo a internet, primero es necesario crear un repositorio en Github. Tener en cuenta que el nombre que elijas para el mismo se utilizara en la ruta al sitio web donde se alojara el portfolio.\
+Luego de crearlo, es momento de asociarlo a este proyecto. Para esto puedes seguir las instruccion que proporciona Github en el reposotiorio vacio, o puedes copiar el siguiente codigo:
 ```bash
 git remote add origin LINK-DEL-REPOSITORIO-CREADO
 git branch -M main
@@ -163,58 +170,38 @@ export const stack = [
   }
 ];
 ```
+#### e) `links.js`
+En esta archivo de configuracion se hara referencia al CV que se puede descargar en la seccion **ABOUT ME**. Para esto sera necesario agregar el archivo al directorio `./public/files`. Una vez hecho esto, preceder a editar los links.
 
-### `npm test`
+```javascript
+export const linkToLinkedin = "https://www.linkedin.com/in/USUARIO"; // Link al perfil de linkedin.
+export const linkToGithub = 'https://github.com/USUARIO';            // Link al perfil de GitHub.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+export const cv = './files/ARCHIVO.EXTENSION';  // Reemplazar 'ARCHIVO' y 'EXTENSION' con los propios del archivo subido.
+```
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Publicar el portfolio:
+Una vez editado a gusto el portfolio, es hora de publicarlo en internet.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+a) Abir el archivo `package.json` ubicado en la carpeta raiz del proyecto y editar la siguiente linea:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```json
+"homepage":"https://USUARIO-DE-GITHUB.github.io/NOMBRE-DEL-REPOSITORIO-REMOTO"
+```
 
-### `npm run eject`
+b) Guardar en el repositorio local y luego en el remoto los cambios realizados. En la carpeta raiz del proyecto, abrir la consola y ejecutar las siguientes lineas:
+```bash
+git add .
+git commit -m 'DESCRIPCION DEL COMMIT.'
+git push origin main
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+c) Para finalizar, ejecutar:
+```bash
+npm run deploy
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+d) Comprobar en la consola que el proceso se complete de manera exitosa. De ser asi, deberia haber un link al mismo que es el que colocamos en el paso a).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+e) En caso de querer modificar el portfolio, repetir los pasos del b) al d).
